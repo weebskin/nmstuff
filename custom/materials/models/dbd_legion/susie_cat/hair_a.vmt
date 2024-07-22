@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/dbd_legion/susie/hair"
+	
+	"$halflambert" "1"
+	"$alphatest" 1
+	"$nocull" 1
+               
+}
+

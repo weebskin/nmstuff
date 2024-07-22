@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/Cally3D/FridayNightFunkin/Monster/MonsterTex"
+	$bumpmap "models/Cally3D/FridayNightFunkin/normal"
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$halflambert 1
+	$phongexponent 5
+
+$detail "models\survivors\survivor_it.vtf"
+$detailscale 3
+$detailblendfactor ".001" 
+$detailblendmode 0
+$ITAmount 0
+Proxies
+{
+IT
+{
+resultVar $ITAmount
+}
+Equals
+{
+srcVar1 $ITAmount
+resultVar $detailblendfactor
+}
+}
+}

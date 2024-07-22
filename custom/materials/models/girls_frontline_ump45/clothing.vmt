@@ -1,0 +1,41 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/girls_frontline_ump45/clothing"
+	"$bumpmap" "models\girls_frontline_ump45\clothing_normal"
+	//"$translucent" "1"
+	//"$model" "1"
+	//"$nodecal" "1"
+	"$nocull" "1"
+	//"$alphatest" 1
+	//"$allowalphatocoverage" 1
+	//"$halflambert" "1"
+
+	"$lightwarptexture" "models\girls_frontline_ump45\lightwarptexture"
+
+	"$phong" "1"
+	"$phongboost"	"24"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "models\girls_frontline_ump45\phong_exp"
+	"$phongfresnelranges"	"[0 0 1]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "3"
+	"$rimlightboost"          "3"
+
+$detail "models\nmr_viewmodels\nmrih_shared\nmrih_blood_shared"
+$detailblendmode 2
+$detailblendfactor 1
+$detailscale 7.0
+$detailrotation 0.0
+
+	"Proxies"
+	{
+		"BloodyTexture"
+		{
+			"detailcount"	"3"
+			"source"		"player"
+		}
+	}
+
+}
+

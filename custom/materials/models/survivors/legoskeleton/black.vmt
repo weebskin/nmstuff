@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/survivors/legoskeleton/black"
+
+	"$halflambert" "1"
+	"$model" "1"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "2"
+	"$phongalbedotint" "1"
+	"$phongtint" "[1 .85 .85]"
+	"$phongfresnelranges"	"[.4 1 1]"
+}

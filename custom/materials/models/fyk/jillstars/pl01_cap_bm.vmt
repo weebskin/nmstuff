@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+$basetexture "models/fyk/jillstars/pl01_cap_BM"
+$bumpmap "models/fyk/jillstars/cap_n"
+$phong 1
+$phongboost "1"
+$phongfresnelranges "[.07 .3 1]"
+$ambientocclusion 1
+$nocull 1
+}

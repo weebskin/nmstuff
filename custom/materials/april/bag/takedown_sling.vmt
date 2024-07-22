@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	$basetexture "April\bag\takedown_sling_d"
+	$bumpmap "April\bag\takedown_sling_n"
+
+    "$phong" "1"
+    "$phongexponent" "4"
+//    "$phongalbedotint" "1"
+    "$phongboost" "1"
+    "$phongfresnelranges"    "[.3 .3 .3]"
+
+
+
+}

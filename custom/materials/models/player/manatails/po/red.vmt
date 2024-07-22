@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/manatails/po/red"
+	"$model" 1
+}

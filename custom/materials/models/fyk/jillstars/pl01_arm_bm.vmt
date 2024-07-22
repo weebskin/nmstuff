@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+$basetexture "models/fyk/jillstars/pl01_arm_BM"
+$bumpmap "models/fyk/jillstars/arm_n"
+$phongexponenttexture "models/fyk/jillstars/arm_s"
+$phong 1
+$phongboost ".4"
+$phongfresnelranges "[.07 .3 1]"
+$ambientocclusion 1
+$nocull 1
+}

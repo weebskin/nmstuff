@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/player/resident_evil/spf/gloves_white"
+	"$bumpmap" 		"models/player/resident_evil/spf/gloves_n"
+//	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$surfaceprop" "flesh"
+
+	"$phong" "1"
+	"$phongexponent" "12"
+	"$phongboost"	".6"
+	"$phongfresnelranges"	"[0.25 0.5 1]"
+}

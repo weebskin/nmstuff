@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\azimuth\bluearchive\megu\body"
+	"$lightwarpTexture" "models\azimuth\bluearchive\megu\basewarp"
+	"$bumpmap" "models\azimuth\bluearchive\megu\normal"
+}

@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "GFLump45/mhound/textures/Tex_facial"
+"$lightwarptexture" "GFLump45/mhound/textures/basewarp"
+         "$bumpmap" "GFLump45/mhound/textures/normal"
+        "$nocull" 1
+	"$nodecal" 1
+	"$phong" "1"
+	"$phongboost"	".02"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[1 .1 .1]"
+	"$halflambert" "1"
+$alphatest 1
+$alphatest 1
+$alphatestreference 0.5
+$allowalphatocoverage 1
+"translucent" "1"  

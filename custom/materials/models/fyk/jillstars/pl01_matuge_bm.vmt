@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/fyk/jillstars/pl01_matuge_BM"
+	"$translucent" 1
+}

@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/dbd_legion/susie_cat/head2"
+	"$bumpmap" "models/dbd_legion/susie_cat/head2_n"
+	
+	"$halflambert" "1"
+
+	"$phong" "1" 
+	"$phongexponent" "7"
+	"$phongboost" "0.06"
+	"$phongfresnelranges"		"[0 0.5 1]"
+               
+}
+

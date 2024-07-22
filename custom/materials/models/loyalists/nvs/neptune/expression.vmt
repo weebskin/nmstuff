@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/loyalists/nvs/neptune/eye"
+	"$bumpmap" "models/loyalists/nvs/neptune/shader/normal"
+	
+	"$halflambert" "1"	
+	"$AmbientOcclusion" "0"	
+	"$nocull" "1"
+	"$nodecal" "1"
+	"$translucent" "1"
+//	"$alphatest" "1"
+}

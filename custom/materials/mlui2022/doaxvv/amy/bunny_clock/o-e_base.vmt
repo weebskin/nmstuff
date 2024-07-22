@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "mlui2022/doaxvv/Amy/Bunny_Clock/o-e_base"
+$bumpmap   "mlui2022/doaxvv/Amy/Bunny_Clock/NRM/o-e_nrm"
+$phong 		1
+$phongboost 	1
+$phongexponent 	5
+$phongtint "[1 .85 .85]"
+$phongfresnelranges "[.01 .01 5]"  //油亮0.1 0.1 5
+$ambientocclusion 	1
+$halflambert 	1
+$nodecal  		1
+$nocull   		1  
+}
+

@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "mlui2022/doaxvv/Amy/Bunny_Clock/body_base"
+$bumpmap "mlui2022/doaxvv/Amy/Bunny_Clock/NRM/body_nrm"
+$halflambert 1
+$phong 1
+$phongboost 0.3
+$phongexponent 0.3
+$phongtint "[1 .85 .85]"
+$phongfresnelranges "[.2 .85 30]"
+$nodecal 1
+$PhongAlbedoTint "1"
+$rimlight 				"1"	
+$rimlightexponent 			"3"
+$rimlightboost			"0.1"
+}

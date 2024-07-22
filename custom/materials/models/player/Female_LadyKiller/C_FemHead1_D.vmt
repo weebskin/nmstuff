@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\Female_LadyKiller/C_FemHead1_D"
+	"$bumpmap" "models\player\Female_LadyKiller/C_FemHead1_N"
+
+"$phong" "1"
+ "$phongexponent" 12
+ "$phongexponenttexture" "models\player\Female_LadyKiller/C_FemHead1_S"
+ "$phongboost" "1"
+ "$phongfresnelranges" "[0.15 0.15 0.05]"
+
+$rimlight 1
+ $rimlightexponent 0.5
+ $rimlightboost .1
+}

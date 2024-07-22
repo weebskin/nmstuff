@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+$baseTexture "models\nmr_viewmodels\nmrih_butcher\nmrih_butcher_arms_diffuse"
+$bumpmap "models/nmr_viewmodels/nmrih_shared/nmrih_legacy_arm_normal"
+$halflambert "1"
+$detail "models/nmr_viewmodels/nmrih_shared/nmrih_blood_shared"
+$detailblendmode 2
+$detailblendfactor 0.0
+$detailscale 1.0
+$detailrotation 0.0
+	"Proxies"
+	{
+		"BloodyTexture"
+		{
+			"detailcount"	"3"
+			"source"		"player"
+		}
+	}
+
+}

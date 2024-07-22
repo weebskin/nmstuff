@@ -1,0 +1,27 @@
+VertexLitGeneric
+{
+	"$basetexture" "GFLump45/mhound/textures/Tex_object"
+	"$lightwarptexture" "GFLump45/mhound/textures/basewarp"
+         "$bumpmap" "GFLump45/mhound/textures/Tex_normal"
+	"$lightwarptexture"  "GFLump45/mhound/textures/refl"
+	"$nocull"		1
+	"$translucent" 		0
+	"$halflambert"		1
+	"$phong"		1
+	"$phongexponentmap"	""
+	"$phongexponent" 	50
+	"$phongboost" 		3
+    $phongfresnelranges               "[1.0 1.0 1.0]"
+	
+	"$rimlight"	1
+	"$rimlight_exp"		5
+	"$rimlight_boost"	15
+	
+	"$sss_enable"		0
+	"$sss_color"		"[1 0 0 1]"
+	
+	"$surface" "metal"
+	"$normalmapalphaphongexponenttexture" "1"
+	"$nodecal" "1"
+	
+}

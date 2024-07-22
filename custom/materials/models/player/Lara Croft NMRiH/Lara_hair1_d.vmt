@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\Lara Croft NMRiH/Lara_hair1_d"
+        "$bumpmap" "models\player\Lara Croft NMRiH/Lara_hair1_n"
+	"$mostlyopaque" 1
+	"$translucent" 1
+	"$alphatest" 1
+	"$model" 1
+	"$nocull" 1
+}

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/player/resident_evil/spf/pouches_01"
+	"$bumpmap"	"models/player/resident_evil/spf/pouches_01_normal"
+
+	"$phong" "1"
+	"$phongboost" "0.02"
+	"$phongexponent" "10"
+	"$halflambert" 1
+	"$phongfresnelranges" "[1 1 5]"
+	"$ambientocclusion" 1
+	"$nocull" 1
+}

@@ -1,0 +1,60 @@
+"VertexlitGeneric"
+{
+	//如果只想用的话就直接复制这套方案，基本上可以达到动画纹理效果
+	//If you only want to use it, just copy this set, which achieves anime texture effect
+	//basically no shadow,and a little selfillum effect
+	
+	//在模型发布前所有学到的动画纹理参数就差不多是这样了
+	// Before the model is released, This is all I've learned.
+	
+	//借了点东西哈 mask_15 取自 碧蓝档案 - 圣园未花
+	//the mask_15.vtf from 碧蓝档案 - 圣园未花
+	
+	//phong方案借鉴  GMOD作者 dewobedil Azimuth 都是大佬
+	//phong from gmod creator dewobedil and Azimuth,You can go to their website and take a look
+	
+	//如果想深度了解光影方案参数
+	//if you want to learn more about the vmt ,you can go https://developer.valvesoftware.com/
+	//可以看看这篇CSDN文章
+	//or this website,but language is chinese
+	//https://blog.csdn.net/weixin_44546865/article/details/104920337
+	//作者总结了很多value文档中的内容
+	
+	//this is it,you can learn or just copy,that's not matter.
+	
+	//最后关于模型加密,给你个提示:找个 16进制编辑器,你就知道咋做了
+	//at last,about "why i can't Decompiling Model",give you a tip:find a Hex editor,you know how to do then.	
+	
+	//阴影过渡，这里肯定要选一个没过渡的，以用于二维展现的效果
+	"$lightwarptexture" "models/jcmod244/ganyutb/toon_all"
+	
+	//法线，创造无阴影的平面效果，但作用不大其实
+	"$bumpmap"	"models/jcmod244/ganyutb/normal"
+	
+	"$nocull" 1
+	"$nodecal" 1
+	
+
+	//高光纹理，也就是开启后，某些位置会根据光照有亮斑
+	"$phongexponenttexture" "models/jcmod244/ganyutb/phong_exp"
+	"$phong" "1"
+	"$phongboost"	"2"
+	"$phongexponent" "5"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[0 .1 5]"
+	
+	//半兰伯特光照，使得光照效果覆盖面更大
+	"$halflambert" "1"
+	
+	//无环境光遮蔽，这是在CSDN看到的，不知道有用没
+	"$ambientocclusion" "1"
+	
+	//自发光要加mask，不然太亮了就没有阴影效果了
+	"$selfillum" "1"
+	"$selfillummask" "models/jcmod244/ganyutb/mask_15"
+	
+	//边缘光，可以看看source文档
+	"$rimlight"               "1"
+	"$rimlightexponent"       "0"
+	"$rimlightboost"          "1"
+	}

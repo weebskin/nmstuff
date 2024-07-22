@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/player/resident_evil/spf/alive_gear2"
+	"$bumpmap" 		"models/player/resident_evil/spf/alive_gear2_nrm"
+
+	"$phong" "1"
+	"$phongboost" "0.2"
+	"$phongexponent" "10"
+	"$halflambert" 1
+	"$phongfresnelranges" "[1 1 5]"
+	"$ambientocclusion" 1
+	"$nocull" 1
+}

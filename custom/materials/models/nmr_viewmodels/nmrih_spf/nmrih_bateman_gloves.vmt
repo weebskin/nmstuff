@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+$basetexture "models/nmr_viewmodels/nmrih_bateman/nmrih_bateman_gloves_diffuse"
+$bumpmap "models/nmr_viewmodels/nmrih_bateman/nmrih_bateman_gloves_normal"
+$phong "1"
+$phongboost "0.095"
+$phongexponent "25"
+$phongfresnelranges "[.3 .65 30]"
+$halflambert "1"
+$detail "models/nmr_viewmodels/nmrih_bateman/nmrih_bateman_gloves_blood"
+$detailblendmode 2
+$detailblendfactor 0.0
+$detailscale 1.0
+$detailrotation 0.0
+	"Proxies"
+	{
+		"BloodyTexture"
+		{
+			"detailcount"	"3"
+			"source"		"player"
+		}
+	}
+
+}

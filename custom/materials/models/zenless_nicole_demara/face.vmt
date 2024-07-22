@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/zenless_nicole_demara/face"
+	"$bumpmap" "models/zenless_nicole_demara/normal"
+	//"$translucent" "1"
+	//"$model" "1"
+	//"$nodecal" "1"
+	//"$nocull" "1"
+	//"$alphatest" 1
+	//"$allowalphatocoverage" 1
+	"$halflambert" "1"
+
+	"$lightwarptexture" "models/zenless_nicole_demara/lightwarptexture"
+
+	"$phong" "1"
+	"$phongboost"	"0.8"
+	//"$phongexponent" "10"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "models/zenless_nicole_demara/phong_exp"
+	"$phongfresnelranges"	"[0.1 0.2 0.3]"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "1"
+	"$rimlightboost"          "2"
+}

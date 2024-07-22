@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "amusquiz/models/cmplayer/cmplayermodel"
+	"$normalmap" "amusquiz/models/cmplayer/cmplayermodel_normal"
+	"$surfaceprop" "BloodyFlesh"
+	"$surfaceprop2" "BloodyFlesh"
+}

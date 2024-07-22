@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\Female_LadyKiller/C_FemHair_S"
+	"$translucent" 1
+	"$bumpmap" "models\player\Female_LadyKiller/C_FemHair_N"
+}
